@@ -6,11 +6,10 @@ A standalone oh-my-pi extension inspired by [pi-better](https://github.com/nicob
 
 ## Install
 
-Requires **omp 18.20.2 or newer** and an authenticated GitHub CLI account with access to this private repository. No npm install or build is needed.
+Requires **omp 18.20.2 or newer** and Git. No GitHub authentication, npm install, or build is needed.
 
 ```sh
-# Authenticate first if needed: gh auth login
-gh repo clone flashblaze/omp-better
+git clone https://github.com/flashblaze/omp-better.git
 cd omp-better
 omp plugin link "$PWD"
 ```
